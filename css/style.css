@@ -1,0 +1,115 @@
+/* remember that style sheets cascade, so whatever is on the bottom will override whats on top. Don't have multiple statements for the same element. Organization and hierarchy are key, start with larger elements and work your way down.
+
+Do they best you can with this, talk with each other and help each other. Most colors and fonts are provided for you. Use adobe color to find the other colors from the sample image.*/
+
+
+
+body {
+  background-color: #CDE3F1;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 0px;
+
+}
+
+html {
+  background-color: #F3994D;
+}
+
+
+
+h1 {
+  color: #394215;
+  font-size: 37px;
+  font-family: josefin sans;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600px;
+  text-align: center;
+}
+
+a {
+  font-family: josefin sans;
+  text-decoration: none;
+  color: #394215;
+  margin-bottom: 30px;
+  font-weight: 600px;
+}
+
+body nav a {
+  color: #00ACC0;
+  font-family: josefin sans;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16x;
+  font-weight: 600px;
+  margin: 120px;
+}
+
+a {
+  font-family: josefin sans;
+  text-decoration: none;
+  color: #394215;
+  margin-bottom: 30px;
+  font-weight: 600px;
+}
+
+
+h3 {
+  font-family: josefin sans;
+  font-size: 18px;
+  margin-left: 40px;
+  color: #00ACC0;
+  font-weight: 600px;
+}
+
+h2 {
+  font-family: lato;
+  font-size: 22.5px;
+  margin-left: 40px;
+}
+
+article img {
+  margin: auto;
+  width: 1150px;
+  display: block;
+}
+
+aside img {
+  margin: auto;
+  width: 300px;
+}
+
+
+p {
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 15px;
+  font-family: lato;
+  font-weight: 400px;
+}
+
+
+aside ul li {
+  font-family: josefin sans;
+  color: #394215;
+  margin-left: 35px;
+
+}
+
+aside ul li a {
+  color: #394215;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+footer {
+  background-color: #00ACC0;
+  text-align: center;
+  font-weight: 600;
+  padding: 45px;
+}
+
+.social-links {
+  text-transform: uppercase;
+}
